@@ -1,6 +1,8 @@
 # EasyTSF
 
 The implement of paper "CDFNet: Collaborative Decomposition and Forecasting Network for Time Series" (under reviewed)
+Time series forecasting is a long-standing research area, and related methods gain wider applications with the support of deep learning techniques. However, the complexity of real-world time series limits these methods capabilities. To address this issue, we propose the Adaptive Functional Decomposition module (AFD) inspired by the Kolmogorov-Arnold Network (KAN), where KAN is a novel function-fitting network with learnable parameters. AFD integrates multiple KAN layers to capture different parts of temporal patterns and uses reconstruction loss to encourage accurate decomposition in the training. Then, we propose a simple yet effective Collaborative
+Decomposition and Forecasting Network (CDFNet), which uses AFD to decompose the input time series into several sub-series and adopts a homogenous functional forecasting module to predict the future state of each sub-series. Finally, we conduct a comparison with six baselines on seven datasets, CDFNet gets 54 times rank-1 over 70 metrics, which confirms the effectiveness of our proposed method
 
 ## Usage
 
