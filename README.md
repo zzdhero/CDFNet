@@ -1,4 +1,4 @@
-# EasyTSF
+# CDFNet
 
 The implement of paper "CDFNet: Collaborative Decomposition and Forecasting Network for Time Series" (under reviewed)
 
